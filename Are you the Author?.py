@@ -178,9 +178,9 @@ def main():
     match_percent = round(100 - (lowest_difference / max_possible_difference * 100))
 
     # Display the user's matched belief profile
-    print("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(f"🔎 Your Belief Profile: {best_match['name']} ({match_percent}% match)")
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+    print("\n" + "="*70)
+    print(f"🔎 Your Belief Profile: {best_match['name']} ({match_percent}% match)" .center(70))
+    print("="*70)
     print(best_match["description"])
 
     # Short pause before age insights
