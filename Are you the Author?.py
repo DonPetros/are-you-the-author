@@ -58,16 +58,16 @@ def find_age_group(age, age_data):
 
 # Survey questions — designed to probe beliefs on free will and determinism
 questions = [
-    "Even if everything in someone’s life happened the same way again, they could still choose differently.",
-    "Every decision we make is a product of our biology and environment.",
-    "People can reinvent themselves, no matter their history or background.",
-    "Even when someone grows up in a violent household, they are still morally responsible for what they do.",
-    "Understanding someone’s past can excuse, or at least explain, harmful behaviour.",
-    "It’s possible to believe in both free will and determinism without contradiction.",
-    "Most of what we do is determined before we’re even aware of it.",
-    "Genetics and life experiences shape our identity more than our conscious choices.",
-    "Blame is important — even if behaviour is shaped by causes beyond our control.",
-    "Free will is a comforting illusion, not a real force in human behaviour."
+    "People are always capable of choosing differently, no matter their past.",
+    "Most of our thoughts and actions happen without conscious control.",
+    "We are responsible for what we do, even if our choices were influenced.",
+    "Our genes and early life experiences shape who we become more than our choices.",
+    "Understanding someone’s past can reduce how much we blame them.",
+    "Even when we think we’re choosing freely, our brain has already made the decision.",
+    "No one is truly free — we are shaped by forces we can’t control.",
+    "Moral responsibility doesn’t depend on whether we have free will.",
+    "Free will and determinism can both be true at the same time.",
+    "Our choices are more automatic than we like to admit."
 ]
 
 # Final reflections — one will be shown at random to prompt deeper thought
@@ -91,11 +91,12 @@ def main():
     print("""
     A brief self-reflection survey on human behaviour, free will,
     and the forces that shape our choices.
-    
+
     You'll be asked 10 short questions. It takes about 5 minutes.
-    
+
     Let's see where your beliefs place you in the great debate
-    between free will and determinism.
+    between free will — the idea that we control our actions — and determinism,
+    which suggests our choices are shaped by biology, how we were raised, and life circumstances.
     """)
 
 
