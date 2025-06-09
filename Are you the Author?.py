@@ -84,17 +84,20 @@ reflections = [
 
 def main():
     """Main logic for survey interaction, analysis, and results display."""
-    print("""...................................................................................
-                                Are You the Author?
-...................................................................................
+    print("\n" + "="*70)
+    print("Are You the Author?".center(70))
+    print("="*70)
+    
+    print("""
+    A brief self-reflection survey on human behaviour, free will,
+    and the forces that shape our choices.
+    
+    You'll be asked 10 short questions. It takes about 5 minutes.
+    
+    Let's see where your beliefs place you in the great debate
+    between free will and determinism.
+    """)
 
-A brief self-reflection survey on human behaviour, free will,
-and the forces that shape our choices.
-
-You'll be asked 10 short questions. It takes about 5 minutes.
-
-Let's see where your beliefs place you in the great debate
-between free will and determinism.""")
 
     # Get initial user input
     user_input = input("Are you ready? (yes/no): ").strip().lower()
